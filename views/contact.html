@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%=title%></title>
+
+    <!--header-->
+    <%- include('partials/head.html') -%>
+
+</head>
+<body>
+    <!--divLogo-->
+    <%- include('partials/logo.html'); -%> 
+    <div id="divBoxed" class="container">
+        <!--divNavigation-->
+        <%- include('partials/navigation.html'); -%>
+
+
+
+        <div id="divArea" class="container mt-5">
+
+            <div class="container">
+                <a href="/">Home</a> &nbsp;/&nbsp; <span>Contact</span>
+            </div>
+
+            <div class="container mt-5 mb-5">
+                <h3> Contact </h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <ul id="contact-info">
+                        <li>                                    
+                            <i class="fas fa-phone-alt"></i>
+                            <span class="field">Phone:</span>
+                            <br />
+                            +55 (61) 98109 9045
+                        </li>
+                        <br />  
+                        <li>
+                            <i class="fas fa-envelope-square"></i>
+                            <span class="field">Email:</span>
+                            <br />
+                            <a href="mailto:efrain.andres@unidesc.edu.br" title="Email">efrain.andres@unidesc.edu.br</a>
+                        </li>
+                        <br />
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span class="field">Address:</span>
+                            University of Brasilia <br>
+                            Campus Darcy Ribeiro <br>
+                            Department of Mechanical and Mechatronics Engineering<br>
+                            Asa Norte, 70910-900 <br>
+                            Brasilia, Brazil
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-7">
+                    <div class="container">
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.770174727437!2d-47.87500518519616!3d-15.763292689070584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3bb7149f0079%3A0x8c463c412a473b19!2sFaculdade%20de%20Tecnologia%20-%20Departamento%20de%20Engenharia%20Mec%C3%A2nica%20-%20UnB!5e0!3m2!1spt-BR!2sbr!4v1582585057353!5m2!1spt-BR!2sbr" width="550" height="400" frameborder="0" style="border:0; box-shadow: 10px 10px grey;" allowfullscreen=""></iframe></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <!--divFooter-->
+    <%- include('partials/footer.html'); -%>
+
+</body>
+</html>

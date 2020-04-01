@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%=title%></title>
+
+    <!--header-->
+    <%- include('../partials/head.html') -%>
+
+</head>
+<body>
+    <!--divLogo-->
+    <%- include('../partials/logo.html'); -%> 
+    <div id="divBoxed" class="container">
+        <!--divNavigation-->
+        <%- include('../partials/navigation.html'); -%>
+        
+        <div id="divArea" class="container mt-5">
+
+            <div class="container">
+                    <a href="/">Home</a> &nbsp;/&nbsp; <span>Publications</span>  &nbsp;/&nbsp; <span>Theses</span>
+                </div>
+        
+                    <div class="container mt-5 mb-5">
+                    <h3> Thesis works  </h3>
+                </div>
+    
+                <div class="container" style="text-align: center;">
+                    <h3>Master thesis</h3>
+                </div>
+        
+                <div class="container" style="text-align: justify;">
+                    <td>
+                        <p> <strong>E. Rodriguez</strong>. Desenvolvimento de robô com cinemática paralela delta linear para manufatura aditiva aderente a STEP-NC. 
+                            <em>University of Brasilia</em>, Brasilia, Brazil, 2018 (in Portuguese).
+                    </td>
+                </div>
+
+                <div class="container" style="text-align: center;">
+                    <h3>Engineering thesis final report</h3>
+                </div>
+        
+                <div class="container" style="text-align: justify;">
+                    <td>
+                        <p> <strong>E. Rodriguez</strong>, E. de J., Cortés. Diseño y construcción de un robot paralelo 5R para la impresión 3D. 
+                            <em>University of Pamplona</em>, Pamplona, Colombia, 2015 (in Spanish).
+                    </td>
+                </div>
+                
+            </div>
+        </div>
+    <!--divFooter-->
+    <%- include('../partials/footer.html'); -%>
+
+</body>
+</html>

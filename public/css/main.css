@@ -1,0 +1,62 @@
+
+/*--------------<body>-------------*/
+body{
+    background-image: url("/img/main-webpage.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#divBoxed{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+#divCarousel{
+    padding-top: 20px;
+}
+
+/*------------<divLogo>----------- */
+#divLogo{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#divSiteTitle{
+    font-family: 'Jacques Francois Shadow';
+    color: rgb(92, 169, 218);
+    font-size: 25pt;
+    text-decoration: none;
+}
+
+#divTagLine{
+    font-family: 'Sahitya';
+    color: slategrey;
+    text-decoration: none;
+}
+
+/*------------<divNavigation>------------*/
+#divNavigation{
+    padding-top: 20px;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+/*------------<divArea>----------------*/
+#divArea{
+    font-family: 'Noto Serif';
+}
+
+#divFooter{
+    font-family: 'Sahitya';
+    background-image: url("/img/footer.jpg");
+    height: 100px;
+    text-align: center;
+}
+
+#lineSeparator{
+    height: 1px;
+    background: darkgray;
+    margin: 10px 10px 10px 10px;
+}
